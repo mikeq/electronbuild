@@ -8,7 +8,7 @@
     "pack": "build --dir",
     "dist": "build"
   },
-  "repository": "https://git.spnet.local/hightower/electron",
+  "repository": "https://github.com/mikeq/electronbuild",
   "keywords": [
     "Electron",
     "quick",
