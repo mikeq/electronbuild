@@ -1,0 +1,27 @@
+{
+  "name": "court-scheduler-electron",
+  "version": "1.0.0",
+  "description": "ELectron build for the Court Scheduler",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "repository": "https://git.spnet.local/hightower/electron",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Police Scotland",
+  "devDependencies": {
+    "electron": "~1.6.2",
+    "electron-builder": "^16.2.0"
+  },
+  "build": {
+    "appId": "scheduler"
+  }
+}
